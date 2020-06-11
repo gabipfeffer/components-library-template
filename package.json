@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "components-library-template",
   "version": "1.0.0",
   "description": "Reusable React components library template",
   "main": "lib/index.js",
@@ -7,16 +7,16 @@
     "start": "start-storybook",
     "build": "webpack --mode production"
   },
-  "author": "Andrew Potts",
+  "author": "Pablo Albaladejo",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/preset-react": "^7.9.4",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
     "@storybook/addon-knobs": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0",
