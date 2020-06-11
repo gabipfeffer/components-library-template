@@ -2,7 +2,7 @@
   "name": "react-component-library",
   "version": "1.0.0",
   "description": "Reusable React components library template",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "start-storybook",
     "build": "webpack --mode production"
