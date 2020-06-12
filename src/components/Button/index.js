@@ -1,8 +1,27 @@
-import React from 'react'
-import './button.scss'
+import React from 'react';
+import cs from 'classnames';
 
-const Button = ({message = 'Hello world'}) => (
-	<button>{message}</button>
-)
+import s from './button.pcss';
 
-export default Button
+const styleLookups = {
+  primary: 'btn-primary',
+  secondary: 'btn-secondary',
+  download: 'btn-download'
+};
+
+function Button({ type, children, onClick, small, isLive }) {
+  console.log(s.btn)
+  return (
+    <button
+      className={cs(s.btn, {
+        [s[styleLookups[type]]]: type,
+        [s.small]: small,
+        [s.live]: isLive
+      })}
+      onClick={onClick}>
+      <span className={s.content}>{children}</span>
+    </button>
+  );
+}
+
+export default Button;

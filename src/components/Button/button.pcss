@@ -1,0 +1,95 @@
+@import "../../theme/variables.pcss";
+
+.btn {
+  border-radius: 0.6rem;
+  font-family: var(--font-family);
+  font-weight: var(--font-regular);
+  outline: none;
+  padding: 0.25rem 1.375rem 0.25rem 1.375rem;
+
+  @media screen and (max-width: 768px) {
+    border-radius: 0.3rem;
+    font-size: 0.875rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &.small {
+    height: 1.1875rem;
+    padding: 0 0.25rem 0.1rem 0.25rem;
+    border-radius: 0.6rem;
+    border-width: 0;
+
+    .content {
+      font-weight: var(--font-light);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    &.btn-secondary {
+      border-color: transparent;
+    }
+  }
+
+  &.btn-primary {
+    background-color: var(--primary-colour);
+    border-color: var(--primary-colour);
+
+    .content {
+      color: var(--primary-text-colour);
+    }
+  }
+
+  &.btn-secondary {
+    background-color: #fff;
+    border-color: var(--secondary-highlight-colour);
+
+    .content {
+      color: var(--secondary-text-colour);
+    }
+  }
+
+  &.btn-download {
+    background-color: var(--secondary-text-colour);
+    border-color: var(--primary-colour);
+    padding: 0.9em 1.3em;
+    border-radius: 5px;
+
+    .content {
+      color: var(--primary-colour);
+    }
+  }
+
+  &:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+  }
+
+  &.live {
+    &.btn-primary {
+      background-color: var(--primary-live-colour);
+      border-color: var(--primary-live-colour);
+
+      .content {
+        color: var(--primary-live-text-colour);
+      }
+    }
+
+    &.btn-secondary {
+      background-color: var(--secondary-live-colour);
+      border-color: var(--secondary-live-border-colour);
+
+      .content {
+        color: var(--secondary-live-text-colour);
+      }
+    }
+  }
+
+  .content {
+    font-size: 1rem;
+    font-weight: var(--font-regular);
+  }
+}

@@ -6,5 +6,5 @@ export default { title: 'Button', decorators: [withKnobs] }
 
 export const button = () => {
 	const message = text('Text', 'Click here now!')
-	return <Button message={message}></Button>
+	return <Button type="secondary">{message}</Button>
 }
