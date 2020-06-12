@@ -5,6 +5,6 @@ import { withKnobs, text } from '@storybook/addon-knobs'
 export default { title: 'Button', decorators: [withKnobs] }
 
 export const button = () => {
-	const message = text('Text', 'Click here now!')
-	return <Button type="secondary">{message}</Button>
+	const message = text('Text', 'download')
+	return <Button type="download">{message}</Button>
 }

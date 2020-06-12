@@ -1,0 +1,100 @@
+:root {
+    /* To keep */
+  
+    /* Possiby to cull */
+  }
+.src-components-Button-__button__btn--dswI- {
+  border-radius: 0.6rem;
+  font-family: 'World Athletics';
+  font-family: 'World Athletics';
+  font-weight: 400;
+  font-weight: 400;
+  outline: none;
+  padding: 0.25rem 1.375rem 0.25rem 1.375rem
+}
+@media screen and (max-width: 768px) {
+.src-components-Button-__button__btn--dswI- {
+    border-radius: 0.3rem;
+    font-size: 0.875rem
+}
+  }
+.src-components-Button-__button__btn--dswI-:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__small--3GTn8 {
+    height: 1.1875rem;
+    padding: 0 0.25rem 0.1rem 0.25rem;
+    border-radius: 0.6rem;
+    border-width: 0;
+  }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__small--3GTn8 .src-components-Button-__button__content--FwrX8 {
+      font-weight: 200;
+      font-weight: 200;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__small--3GTn8.src-components-Button-__button__btn-secondary--1uSug {
+      border-color: transparent;
+    }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__btn-primary--2SeW9 {
+    background-color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-color: #ffffff;
+  }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__btn-primary--2SeW9 .src-components-Button-__button__content--FwrX8 {
+      color: #0E0E0E;
+      color: #0E0E0E;
+    }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__btn-secondary--1uSug {
+    background-color: #fff;
+    border-color: #4e4e4e;
+    border-color: #4e4e4e;
+  }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__btn-secondary--1uSug .src-components-Button-__button__content--FwrX8 {
+      color: #4e4e4e;
+      color: #4e4e4e;
+    }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__btn-download--Yl5PW {
+    background-color: #4e4e4e;
+    background-color: #4e4e4e;
+    border-color: #ffffff;
+    border-color: #ffffff;
+    padding: 0.9em 1.3em;
+    border-radius: 5px;
+  }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__btn-download--Yl5PW .src-components-Button-__button__content--FwrX8 {
+      color: #ffffff;
+      color: #ffffff;
+    }
+.src-components-Button-__button__btn--dswI-:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+  }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__live--3yCo-.src-components-Button-__button__btn-primary--2SeW9 {
+      background-color: #f04046;
+      background-color: #f04046;
+      border-color: #f04046;
+      border-color: #f04046;
+    }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__live--3yCo-.src-components-Button-__button__btn-primary--2SeW9 .src-components-Button-__button__content--FwrX8 {
+        color: #fef3f3;
+        color: #fef3f3;
+      }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__live--3yCo-.src-components-Button-__button__btn-secondary--1uSug {
+      background-color: #fff;
+      background-color: #fff;
+      border-color: #ed1c24;
+      border-color: #ed1c24;
+    }
+.src-components-Button-__button__btn--dswI-.src-components-Button-__button__live--3yCo-.src-components-Button-__button__btn-secondary--1uSug .src-components-Button-__button__content--FwrX8 {
+        color: #ed1c24;
+        color: #ed1c24;
+      }
+.src-components-Button-__button__btn--dswI- .src-components-Button-__button__content--FwrX8 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-weight: 400;
+  }
+

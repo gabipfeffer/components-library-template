@@ -10,7 +10,6 @@ const styleLookups = {
 };
 
 function Button({ type, children, onClick, small, isLive }) {
-  console.log(s.btn)
   return (
     <button
       className={cs(s.btn, {
