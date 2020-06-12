@@ -1,5 +1,17 @@
 module.exports = {
-    plugins: [
-        require('autoprefixer')
-    ]
+    plugins: {
+        'postcss-import': {},
+        'postcss-flexbugs-fixes': {},
+        'postcss-preset-env': {
+            stage: 0,
+        },
+        'postcss-mixins': {},
+        'postcss-css-variables': {},
+        'postcss-nested': {},
+        'postcss-inherit': {},
+        'postcss-reporter': {},
+        'postcss-custom-properties': {},
+        'postcss-custom-media': {},
+        'lost': {},
+    },
 };
